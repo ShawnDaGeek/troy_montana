@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<prefabDesc descVersion="1">
+    <author>AVSR Modding Team</author>
+    <version>1.0.0.0</version>
+	<title>
+        <en>Soviet Gas Pump Kit 1</en>
+		<de>Sowjetisches Gaspumpen-Kit 1</de>
+		<ru>Набор Бензоколонок СССР №1</ru>
+    </title>
+	<iconFilename>icon_prefab_pumpKit1.dds</iconFilename>
+	<description>
+		<en><![CDATA[This is a package of soviet gas station pumps.
+
+The package contains:
+-KER-40-0,5/KED-40-0,5 (3 designs, various decal designs, Petrol/A-76/Diesel label)
+-Livny-1 (2 designs, Petrol/Diesel label)
+-GARO 384 (2 designs, Petrol/Diesel label)
+-GARO 367M Oil Pump (3 designs)]]></en>
+		<de><![CDATA[Dies ist ein Paket sowjetischer Tankstellenpumpen.
+
+Das Paket enthält:
+-KER-40-0,5/KED-40-0,5 (3 Designs, verschiedene Decal Designs, Benzin/A-76/Diesel Decal)
+-Livny-1 (2 Designs, Benzin/Diesel Decal)
+-GARO 384 (2 Designs, Benzin/Diesel Decal)
+-GARO 367M Ölpumpe (3 Designs)]]></de>
+		<ru><![CDATA[Набор бензоколонок врёмен СССР.
+
+Содержимое набора:
+-КЭР-40-0,5/КЭД-40-0,5 (3 варианта покраски, различные варианты декалей, декали Бензин/А-76/Дизель)
+-Ливны-1 (2 варианта покраски, декали Бензин/Дизель)
+-ГАРО 384 (2 варианта покраски, декали Бензин/Дизель)
+-ГАРО 367М Маслораздаточная колонка (3 варианта покраски)]]></ru>
+	</description>
+	<categories>
+        <category>Industrial</category>
+        <category>Static</category>
+    </categories>
+
+	<prefabs>
+		<prefab name="Soviet Gas Pump Kit 1" i3dFilename="sovietGasPumpKit1.i3d" />
+    </prefabs>
+</prefabDesc>

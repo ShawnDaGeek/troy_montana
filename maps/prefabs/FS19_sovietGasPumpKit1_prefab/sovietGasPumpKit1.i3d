@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="sovietGasPumpKit1" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="8.2.2"/>
+  </Asset>
+
+  <Files>
+    <File fileId="9" filename="$data/shaders/decalShader.xml"/>
+    <File fileId="5" filename="$data/shared/default_normal.png"/>
+    <File fileId="8" filename="$data/shared/default_specular.png"/>
+    <File fileId="4" filename="$data/shared/window_diffuse.png"/>
+    <File fileId="6" filename="$data/shared/window_specular.png"/>
+    <File fileId="24" filename="textures/garo367_01_diffuse.dds"/>
+    <File fileId="27" filename="textures/garo367_02_diffuse.dds"/>
+    <File fileId="28" filename="textures/garo367_03_diffuse.dds"/>
+    <File fileId="25" filename="textures/garo367_normal.dds"/>
+    <File fileId="26" filename="textures/garo367_specular.dds"/>
+    <File fileId="20" filename="textures/garo384Disc_diffuse.dds"/>
+    <File fileId="21" filename="textures/garo384Disc_normal.dds"/>
+    <File fileId="22" filename="textures/garo384Disc_specular.dds"/>
+    <File fileId="17" filename="textures/garo384_01_diffuse.dds"/>
+    <File fileId="23" filename="textures/garo384_02_diffuse.dds"/>
+    <File fileId="18" filename="textures/garo384_normal.dds"/>
+    <File fileId="19" filename="textures/garo384_specular.dds"/>
+    <File fileId="7" filename="textures/gasStationDecals_diffuse.dds"/>
+    <File fileId="1" filename="textures/ker4005_01_diffuse.dds"/>
+    <File fileId="11" filename="textures/ker4005_02_diffuse.dds"/>
+    <File fileId="12" filename="textures/ker4005_03_diffuse.dds"/>
+    <File fileId="2" filename="textures/ker4005_normal.dds"/>
+    <File fileId="3" filename="textures/ker4005_specular.dds"/>
+    <File fileId="13" filename="textures/livny1_01_diffuse.dds"/>
+    <File fileId="16" filename="textures/livny1_02_diffuse.dds"/>
+    <File fileId="14" filename="textures/livny1_normal.dds"/>
+    <File fileId="15" filename="textures/livny1_specular.dds"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="garo367_mat" materialId="4">
+      <Texture fileId="24"/>
+      <Normalmap fileId="25"/>
+      <Glossmap fileId="26"/>
+    </Material>
+    <Material name="garo367_mat1" materialId="5">
+      <Texture fileId="27"/>
+      <Normalmap fileId="25"/>
+      <Glossmap fileId="26"/>
+    </Material>
+    <Material name="garo367_mat2" materialId="6">
+      <Texture fileId="28"/>
+      <Normalmap fileId="25"/>
+      <Glossmap fileId="26"/>
+    </Material>
+    <Material name="garo384_mat" materialId="7">
+      <Texture fileId="17"/>
+      <Normalmap fileId="18"/>
+      <Glossmap fileId="19"/>
+    </Material>
+    <Material name="garo384_mat1" materialId="8">
+      <Texture fileId="23"/>
+      <Normalmap fileId="18"/>
+      <Glossmap fileId="19"/>
+    </Material>
+    <Material name="garo384Disc_mat" materialId="9">
+      <Texture fileId="20"/>
+      <Normalmap fileId="21"/>
+      <Glossmap fileId="22"/>
+    </Material>
+    <Material name="gasStationsDecals_mat" materialId="10" alphaBlending="true" customShaderId="9">
+      <Texture fileId="7"/>
+      <Normalmap fileId="5"/>
+      <Glossmap fileId="8"/>
+    </Material>
+    <Material name="gasStationsDecals_mat1" materialId="11" customShaderId="9">
+      <Texture fileId="7"/>
+      <Normalmap fileId="5"/>
+      <Glossmap fileId="8"/>
+    </Material>
+    <Material name="ker4005_mat" materialId="12">
+      <Texture fileId="1"/>
+      <Normalmap fileId="2"/>
+      <Glossmap fileId="3"/>
+    </Material>
+    <Material name="ker4005_mat1" materialId="13">
+      <Texture fileId="11"/>
+      <Normalmap fileId="2"/>
+      <Glossmap fileId="3"/>
+    </Material>
+    <Material name="ker4005_mat2" materialId="14">
+      <Texture fileId="12"/>
+      <Normalmap fileId="2"/>
+      <Glossmap fileId="3"/>
+    </Material>
+    <Material name="lambert1" materialId="15" diffuseColor="0.5 0.5 0.5 1">
+    </Material>
+    <Material name="livny1_mat" materialId="16">
+      <Texture fileId="13"/>
+      <Normalmap fileId="14"/>
+      <Glossmap fileId="15"/>
+    </Material>
+    <Material name="livny1_mat1" materialId="17">
+      <Texture fileId="16"/>
+      <Normalmap fileId="14"/>
+      <Glossmap fileId="15"/>
+    </Material>
+    <Material name="window_mat" materialId="18" alphaBlending="true">
+      <Texture fileId="4"/>
+      <Normalmap fileId="5"/>
+      <Glossmap fileId="6"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="sovietGasPumpKit1.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+    <TransformGroup name="sovietGasPump1" nodeId="62">
+      <TransformGroup name="ker4005" nodeId="63">
+        <Shape shapeId="1" name="ker4005_vis" clipDistance="200" nodeId="64" materialIds="12" castsShadows="true" receiveShadows="true">
+          <Shape shapeId="2" name="ked4005Needle1" translation="5.96046e-08 1.15958 0.21" rotation="0 -0 -40" clipDistance="50" nodeId="65" materialIds="12" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="3" name="ked4005Needle2" translation="0 1.15958 0.206" clipDistance="50" nodeId="66" materialIds="12" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="4" name="ker4005Glass" translation="0 1.136 0.246" clipDistance="50" nodeId="67" materialIds="18" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="5" name="ker4005Decals" translation="0 1.163 0.204" clipDistance="50" nodeId="68" materialIds="10" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+          <TransformGroup name="selectableDecals" clipDistance="70" nodeId="69">
+            <TransformGroup name="fuelTypeDecals1" visibility="false" clipDistance="70" nodeId="70">
+              <Shape shapeId="6" name="ker4005PetrolDecal" translation="0 0.958523 0.240695" clipDistance="70" nodeId="71" materialIds="11" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+              <Shape shapeId="7" name="ker4005A76Decal1" translation="0 0.958523 0.240695" visibility="false" clipDistance="70" nodeId="72" materialIds="11" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+              <Shape shapeId="8" name="ker4005DieselDecal1" translation="0 0.958523 0.240695" visibility="false" clipDistance="70" nodeId="73" materialIds="11" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+              <Shape shapeId="9" name="flammableDecal1" translation="0 0.71637 0.248968" clipDistance="50" nodeId="74" materialIds="10" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+            </TransformGroup>
+            <TransformGroup name="fuelTypeDecals2" clipDistance="70" nodeId="75">
+              <Shape shapeId="10" name="ker4005A76Decal2" translation="0 0.749819 0.249141" clipDistance="70" nodeId="76" materialIds="10" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+              <Shape shapeId="11" name="ker4005DieselDecal2" translation="0 0.749819 0.249141" visibility="false" clipDistance="70" nodeId="77" materialIds="10" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+            </TransformGroup>
+          </TransformGroup>
+          <Shape shapeId="12" name="ker4005Col" visibility="false" static="true" clipDistance="200" nodeId="78" materialIds="15" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+        </Shape>
+        <Shape shapeId="13" name="ked4005_vis" translation="0 0 -1" clipDistance="200" nodeId="79" materialIds="12" castsShadows="true" receiveShadows="true">
+          <Shape shapeId="14" name="ked4005Needle" translation="0 1.1596 -1.8999e-07" clipDistance="50" nodeId="80" materialIds="12" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="15" name="ked4005Glass" translation="0 1.13589 0" clipDistance="50" nodeId="81" materialIds="18" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="16" name="ked4005Decals" translation="0 1.1596 0" clipDistance="50" nodeId="82" materialIds="10" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+          <TransformGroup name="selectableDecals" clipDistance="70" nodeId="83">
+            <TransformGroup name="fuelTypeDecals1" clipDistance="70" nodeId="84">
+              <Shape shapeId="17" name="ked4005PetrolDecal" translation="0 0.958523 4.13513e-08" clipDistance="70" nodeId="85" materialIds="11" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+              <Shape shapeId="18" name="ked4005A76Decal1" translation="0 0.958523 4.13513e-08" visibility="false" clipDistance="70" nodeId="86" materialIds="11" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+              <Shape shapeId="19" name="ked4005DieselDecal1" translation="0 0.958523 4.13513e-08" visibility="false" clipDistance="70" nodeId="87" materialIds="11" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+              <Shape shapeId="20" name="flammableDecal2" translation="0 0.71637 0" clipDistance="50" nodeId="88" materialIds="10" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+            </TransformGroup>
+            <TransformGroup name="fuelTypeDecals2" visibility="false" clipDistance="70" nodeId="89">
+              <Shape shapeId="21" name="ked4005A76Decal2" translation="0 0.749819 0" clipDistance="70" nodeId="90" materialIds="10" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+              <Shape shapeId="22" name="ked4005DieselDecal2" translation="0 0.749819 0" visibility="false" clipDistance="70" nodeId="91" materialIds="10" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+            </TransformGroup>
+            <Shape shapeId="23" name="creditDecal" translation="0.296766 1.16763 0" clipDistance="50" nodeId="92" materialIds="10" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+          </TransformGroup>
+          <Shape shapeId="12" name="ker4005Col" visibility="false" static="true" clipDistance="200" nodeId="93" materialIds="15" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+        </Shape>
+        <Shape shapeId="1" name="ker4005_vis" translation="1 0 0" clipDistance="200" nodeId="94" materialIds="13" castsShadows="true" receiveShadows="true">
+          <Shape shapeId="2" name="ked4005Needle1" translation="5.96046e-08 1.15958 0.21" rotation="0 -0 -40" clipDistance="50" nodeId="95" materialIds="13" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="3" name="ked4005Needle2" translation="0 1.15958 0.206" clipDistance="50" nodeId="96" materialIds="13" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="4" name="ker4005Glass" translation="0 1.136 0.246" clipDistance="50" nodeId="97" materialIds="18" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="5" name="ker4005Decals" translation="0 1.163 0.204" clipDistance="50" nodeId="98" materialIds="10" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+          <TransformGroup name="selectableDecals" clipDistance="70" nodeId="99">
+            <TransformGroup name="fuelTypeDecals1" visibility="false" clipDistance="70" nodeId="100">
+              <Shape shapeId="6" name="ker4005PetrolDecal" translation="0 0.958523 0.240695" visibility="false" clipDistance="70" nodeId="101" materialIds="11" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+              <Shape shapeId="7" name="ker4005A76Decal1" translation="0 0.958523 0.240695" clipDistance="70" nodeId="102" materialIds="11" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+              <Shape shapeId="8" name="ker4005DieselDecal1" translation="0 0.958523 0.240695" visibility="false" clipDistance="70" nodeId="103" materialIds="11" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+              <Shape shapeId="9" name="flammableDecal1" translation="0 0.71637 0.248968" clipDistance="50" nodeId="104" materialIds="10" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+            </TransformGroup>
+            <TransformGroup name="fuelTypeDecals2" clipDistance="70" nodeId="105">
+              <Shape shapeId="10" name="ker4005A76Decal2" translation="0 0.749819 0.249141" visibility="false" clipDistance="70" nodeId="106" materialIds="10" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+              <Shape shapeId="11" name="ker4005DieselDecal2" translation="0 0.749819 0.249141" clipDistance="70" nodeId="107" materialIds="10" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+            </TransformGroup>
+          </TransformGroup>
+          <Shape shapeId="12" name="ker4005Col" visibility="false" static="true" clipDistance="200" nodeId="108" materialIds="15" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+        </Shape>
+        <Shape shapeId="13" name="ked4005_vis" translation="1 0 -1" clipDistance="200" nodeId="109" materialIds="13" castsShadows="true" receiveShadows="true">
+          <Shape shapeId="14" name="ked4005Needle" translation="0 1.1596 -1.8999e-07" clipDistance="50" nodeId="110" materialIds="13" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="15" name="ked4005Glass" translation="0 1.13589 0" clipDistance="50" nodeId="111" materialIds="18" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="16" name="ked4005Decals" translation="0 1.1596 0" clipDistance="50" nodeId="112" materialIds="10" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+          <TransformGroup name="selectableDecals" clipDistance="70" nodeId="113">
+            <TransformGroup name="fuelTypeDecals1" clipDistance="70" nodeId="114">
+              <Shape shapeId="17" name="ked4005PetrolDecal" translation="0 0.958523 4.13513e-08" visibility="false" clipDistance="70" nodeId="115" materialIds="11" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+              <Shape shapeId="18" name="ked4005A76Decal1" translation="0 0.958523 4.13513e-08" clipDistance="70" nodeId="116" materialIds="11" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+              <Shape shapeId="19" name="ked4005DieselDecal1" translation="0 0.958523 4.13513e-08" visibility="false" clipDistance="70" nodeId="117" materialIds="11" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+              <Shape shapeId="20" name="flammableDecal2" translation="0 0.71637 0" clipDistance="50" nodeId="118" materialIds="10" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+            </TransformGroup>
+            <TransformGroup name="fuelTypeDecals2" visibility="false" clipDistance="70" nodeId="119">
+              <Shape shapeId="21" name="ked4005A76Decal2" translation="0 0.749819 0" visibility="false" clipDistance="70" nodeId="120" materialIds="10" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+              <Shape shapeId="22" name="ked4005DieselDecal2" translation="0 0.749819 0" clipDistance="70" nodeId="121" materialIds="10" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+            </TransformGroup>
+            <Shape shapeId="23" name="creditDecal" translation="0.296766 1.16763 0" visibility="false" clipDistance="50" nodeId="122" materialIds="10" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+          </TransformGroup>
+          <Shape shapeId="12" name="ker4005Col" visibility="false" static="true" clipDistance="200" nodeId="123" materialIds="15" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+        </Shape>
+        <Shape shapeId="1" name="ker4005_vis" translation="2 0 0" clipDistance="200" nodeId="124" materialIds="14" castsShadows="true" receiveShadows="true">
+          <Shape shapeId="2" name="ked4005Needle1" translation="5.96046e-08 1.15958 0.21" rotation="0 -0 -40" clipDistance="50" nodeId="125" materialIds="14" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="3" name="ked4005Needle2" translation="0 1.15958 0.206" clipDistance="50" nodeId="126" materialIds="14" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="4" name="ker4005Glass" translation="0 1.136 0.246" clipDistance="50" nodeId="127" materialIds="18" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="5" name="ker4005Decals" translation="0 1.163 0.204" clipDistance="50" nodeId="128" materialIds="10" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+          <TransformGroup name="selectableDecals" clipDistance="70" nodeId="129">
+            <TransformGroup name="fuelTypeDecals1" visibility="false" clipDistance="70" nodeId="130">
+              <Shape shapeId="6" name="ker4005PetrolDecal" translation="0 0.958523 0.240695" visibility="false" clipDistance="70" nodeId="131" materialIds="11" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+              <Shape shapeId="7" name="ker4005A76Decal1" translation="0 0.958523 0.240695" visibility="false" clipDistance="70" nodeId="132" materialIds="11" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+              <Shape shapeId="8" name="ker4005DieselDecal1" translation="0 0.958523 0.240695" clipDistance="70" nodeId="133" materialIds="11" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+              <Shape shapeId="9" name="flammableDecal1" translation="0 0.71637 0.248968" visibility="false" clipDistance="50" nodeId="134" materialIds="10" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+            </TransformGroup>
+            <TransformGroup name="fuelTypeDecals2" clipDistance="70" nodeId="135">
+              <Shape shapeId="10" name="ker4005A76Decal2" translation="0 0.749819 0.249141" visibility="false" clipDistance="70" nodeId="136" materialIds="10" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+              <Shape shapeId="11" name="ker4005DieselDecal2" translation="0 0.749819 0.249141" visibility="false" clipDistance="70" nodeId="137" materialIds="10" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+            </TransformGroup>
+          </TransformGroup>
+          <Shape shapeId="12" name="ker4005Col" visibility="false" static="true" clipDistance="200" nodeId="138" materialIds="15" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+        </Shape>
+        <Shape shapeId="13" name="ked4005_vis" translation="2 0 -1" clipDistance="200" nodeId="139" materialIds="14" castsShadows="true" receiveShadows="true">
+          <Shape shapeId="14" name="ked4005Needle" translation="0 1.1596 -1.8999e-07" clipDistance="50" nodeId="140" materialIds="14" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="15" name="ked4005Glass" translation="0 1.13589 0" clipDistance="50" nodeId="141" materialIds="18" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="16" name="ked4005Decals" translation="0 1.1596 0" clipDistance="50" nodeId="142" materialIds="10" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+          <TransformGroup name="selectableDecals" clipDistance="70" nodeId="143">
+            <TransformGroup name="fuelTypeDecals1" clipDistance="70" nodeId="144">
+              <Shape shapeId="17" name="ked4005PetrolDecal" translation="0 0.958523 4.13513e-08" visibility="false" clipDistance="70" nodeId="145" materialIds="11" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+              <Shape shapeId="18" name="ked4005A76Decal1" translation="0 0.958523 4.13513e-08" visibility="false" clipDistance="70" nodeId="146" materialIds="11" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+              <Shape shapeId="19" name="ked4005DieselDecal1" translation="0 0.958523 4.13513e-08" clipDistance="70" nodeId="147" materialIds="11" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+              <Shape shapeId="20" name="flammableDecal2" translation="0 0.71637 0" visibility="false" clipDistance="50" nodeId="148" materialIds="10" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+            </TransformGroup>
+            <TransformGroup name="fuelTypeDecals2" visibility="false" clipDistance="70" nodeId="149">
+              <Shape shapeId="21" name="ked4005A76Decal2" translation="0 0.749819 0" visibility="false" clipDistance="70" nodeId="150" materialIds="10" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+              <Shape shapeId="22" name="ked4005DieselDecal2" translation="0 0.749819 0" visibility="false" clipDistance="70" nodeId="151" materialIds="10" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+            </TransformGroup>
+            <Shape shapeId="23" name="creditDecal" translation="0.296766 1.16763 0" clipDistance="50" nodeId="152" materialIds="10" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+          </TransformGroup>
+          <Shape shapeId="12" name="ker4005Col" visibility="false" static="true" clipDistance="200" nodeId="153" materialIds="15" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+        </Shape>
+      </TransformGroup>
+      <TransformGroup name="livny1" translation="3 0 0" nodeId="154">
+        <Shape shapeId="24" name="livny1_vis" clipDistance="200" nodeId="155" materialIds="16" castsShadows="true" receiveShadows="true">
+          <Shape shapeId="25" name="livny1Glass" translation="0 1.06612 1.67638e-08" clipDistance="50" nodeId="156" materialIds="18" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="26" name="livny1Decals" translation="0 0.984623 1.5669e-07" clipDistance="30" nodeId="157" materialIds="10" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+          <TransformGroup name="selectableDecals" clipDistance="50" nodeId="158">
+            <Shape shapeId="27" name="livny1DecalPetrol" translation="1.19209e-07 0.984623 1.5669e-07" clipDistance="50" nodeId="159" materialIds="10" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+            <Shape shapeId="28" name="livny1DecalDiesel" translation="1.19209e-07 0.984623 1.5669e-07" visibility="false" clipDistance="50" nodeId="160" materialIds="10" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+          </TransformGroup>
+          <Shape shapeId="29" name="livny1Col" visibility="false" static="true" clipDistance="200" nodeId="161" materialIds="15" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+        </Shape>
+        <Shape shapeId="24" name="livny1_vis" translation="1 0 0" clipDistance="200" nodeId="162" materialIds="17" castsShadows="true" receiveShadows="true">
+          <Shape shapeId="25" name="livny1Glass" translation="0 1.06612 1.67638e-08" clipDistance="50" nodeId="163" materialIds="18" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="26" name="livny1Decals" translation="0 0.984623 1.5669e-07" clipDistance="30" nodeId="164" materialIds="10" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+          <TransformGroup name="selectableDecals" clipDistance="50" nodeId="165">
+            <Shape shapeId="27" name="livny1DecalPetrol" translation="0 0.984623 1.5669e-07" visibility="false" clipDistance="50" nodeId="166" materialIds="10" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+            <Shape shapeId="28" name="livny1DecalDiesel" translation="1.19209e-07 0.984623 1.5669e-07" clipDistance="50" nodeId="167" materialIds="10" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+          </TransformGroup>
+          <Shape shapeId="29" name="livny1Col" visibility="false" static="true" clipDistance="200" nodeId="168" materialIds="15" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+        </Shape>
+      </TransformGroup>
+      <TransformGroup name="garo384" translation="5 0 0" nodeId="169">
+        <Shape shapeId="30" name="garo384_vis" clipDistance="200" nodeId="170" materialIds="7" castsShadows="true" receiveShadows="true">
+          <Shape shapeId="31" name="garo384Needle" translation="0 1.12239 0" clipDistance="50" nodeId="171" materialIds="7" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="32" name="garo384Glass" translation="0 1.12239 0" clipDistance="50" nodeId="172" materialIds="18" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="33" name="garo384Disc" translation="0 0.914684 0.242649" clipDistance="50" nodeId="173" materialIds="9" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="34" name="garo384Decals" translation="-2.38419e-07 1.12239 0" clipDistance="50" nodeId="174" materialIds="10" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+          <TransformGroup name="selectableDecals" clipDistance="50" nodeId="175">
+            <Shape shapeId="35" name="garo384DecalPetrol" translation="-2.38419e-07 1.46582 3.72529e-09" clipDistance="50" nodeId="176" materialIds="10" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+            <Shape shapeId="36" name="garo384DecalDiesel" translation="-2.38419e-07 1.46582 3.72529e-09" visibility="false" clipDistance="50" nodeId="177" materialIds="10" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+          </TransformGroup>
+          <Shape shapeId="37" name="garo384Col" visibility="false" static="true" clipDistance="200" nodeId="178" materialIds="15" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+        </Shape>
+        <Shape shapeId="30" name="garo384_vis" translation="1 0 0" clipDistance="200" nodeId="179" materialIds="8" castsShadows="true" receiveShadows="true">
+          <Shape shapeId="31" name="garo384Needle" translation="0 1.12239 0" clipDistance="50" nodeId="180" materialIds="8" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="32" name="garo384Glass" translation="0 1.12239 0" clipDistance="50" nodeId="181" materialIds="18" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="33" name="garo384Disc" translation="0 0.914684 0.242649" clipDistance="50" nodeId="182" materialIds="9" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="34" name="garo384Decals" translation="-2.38419e-07 1.12239 0" clipDistance="50" nodeId="183" materialIds="10" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+          <TransformGroup name="selectableDecals" clipDistance="50" nodeId="184">
+            <Shape shapeId="35" name="garo384DecalPetrol" translation="-2.38419e-07 1.46582 3.72529e-09" visibility="false" clipDistance="50" nodeId="185" materialIds="10" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+            <Shape shapeId="36" name="garo384DecalDiesel" translation="-2.38419e-07 1.46582 3.72529e-09" clipDistance="50" nodeId="186" materialIds="10" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+          </TransformGroup>
+          <Shape shapeId="37" name="garo384Col" visibility="false" static="true" clipDistance="200" nodeId="187" materialIds="15" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+        </Shape>
+      </TransformGroup>
+      <TransformGroup name="garo367" translation="7 0 0" nodeId="188">
+        <Shape shapeId="38" name="garo367_vis" clipDistance="200" nodeId="189" materialIds="4" castsShadows="true" receiveShadows="true">
+          <Shape shapeId="39" name="garo367Needle" translation="-2.38419e-07 1.06161 0.11884" clipDistance="50" nodeId="190" materialIds="4" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="40" name="garo367Decals" translation="0 1.06161 0.109802" clipDistance="50" nodeId="191" materialIds="10" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+          <Shape shapeId="41" name="garo367Glass" translation="0 1.06161 0.11884" clipDistance="50" nodeId="192" materialIds="18" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="42" name="garo367Col" visibility="false" static="true" clipDistance="200" nodeId="193" materialIds="15" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+        </Shape>
+        <Shape shapeId="38" name="garo367_vis" translation="0.5 0 0" clipDistance="200" nodeId="194" materialIds="5" castsShadows="true" receiveShadows="true">
+          <Shape shapeId="39" name="garo367Needle" translation="-2.38419e-07 1.06161 0.11884" clipDistance="50" nodeId="195" materialIds="5" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="40" name="garo367Decals" translation="0 1.06161 0.109802" clipDistance="50" nodeId="196" materialIds="10" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+          <Shape shapeId="41" name="garo367Glass" translation="0 1.06161 0.11884" clipDistance="50" nodeId="197" materialIds="18" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="42" name="garo367Col" visibility="false" static="true" clipDistance="200" nodeId="198" materialIds="15" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+        </Shape>
+        <Shape shapeId="38" name="garo367_vis" translation="1 0 0" clipDistance="200" nodeId="199" materialIds="6" castsShadows="true" receiveShadows="true">
+          <Shape shapeId="39" name="garo367Needle" translation="-2.38419e-07 1.06161 0.11884" clipDistance="50" nodeId="200" materialIds="6" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="40" name="garo367Decals" translation="0 1.06161 0.109802" clipDistance="50" nodeId="201" materialIds="10" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+          <Shape shapeId="41" name="garo367Glass" translation="0 1.06161 0.11884" clipDistance="50" nodeId="202" materialIds="18" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="42" name="garo367Col" visibility="false" static="true" clipDistance="200" nodeId="203" materialIds="15" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+        </Shape>
+      </TransformGroup>
+    </TransformGroup>
+  </Scene>
+
+</i3D>

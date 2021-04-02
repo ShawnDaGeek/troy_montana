@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="Tarolo" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="8.1.0"/>
+  </Asset>
+
+  <Files>
+    <File fileId="4" filename="textures/beton_Material.png"/>
+    <File fileId="5" filename="textures/beton_normal.png"/>
+    <File fileId="2" filename="textures/keret_Material.png"/>
+    <File fileId="3" filename="textures/keret_normal.png"/>
+    <File fileId="1" filename="textures/kocsiszin.dds"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="acmat_0" materialId="4">
+      <Texture fileId="1"/>
+    </Material>
+    <Material name="acmat_0" materialId="6">
+      <Texture fileId="2"/>
+      <Normalmap fileId="3"/>
+    </Material>
+    <Material name="acmat_0" materialId="5" specularColor="0 1 1">
+      <Texture fileId="4"/>
+      <Normalmap fileId="5"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="Hungarian_Shed_prefab.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+    <TransformGroup name="Tarolo" clipDistance="300" nodeId="11">
+      <Shape shapeId="1" name="teto" static="true" clipDistance="300" nodeId="12" materialIds="4" castsShadows="true" receiveShadows="true"/>
+      <Shape shapeId="2" name="keret" static="true" clipDistance="300" nodeId="13" materialIds="6" castsShadows="true" receiveShadows="true"/>
+      <Shape shapeId="3" name="beton" static="true" clipDistance="300" nodeId="14" materialIds="5" castsShadows="true" receiveShadows="true"/>
+    </TransformGroup>
+  </Scene>
+
+</i3D>

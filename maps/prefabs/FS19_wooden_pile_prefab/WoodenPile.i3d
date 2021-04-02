@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="untitled" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="8.2.0"/>
+  </Asset>
+
+  <Files>
+    <File fileId="1" filename="$data/maps/trees/spruceTrunk_diffuse.dds"/>
+    <File fileId="2" filename="$data/maps/trees/spruceTrunk_normal.dds"/>
+    <File fileId="3" filename="$data/shared/default_specular.dds"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="lambert1" materialId="5" diffuseColor="0.494118 0.494118 0.494118 1">
+    </Material>
+    <Material name="Holzpolter" materialId="4">
+      <Texture fileId="1"/>
+      <Normalmap fileId="2"/>
+      <Glossmap fileId="3"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="WoodenPile.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+    <Shape shapeId="1" name="HolzpolterLarge" clipDistance="300" nodeId="11" materialIds="4" castsShadows="true" receiveShadows="true">
+      <Shape shapeId="2" name="col" scale="5.85921 1 5.46447" visibility="false" static="true" clipDistance="10" nodeId="12" materialIds="5" nonRenderable="true" distanceBlending="false"/>
+    </Shape>
+    <Shape shapeId="3" name="HolzpolterSmall" translation="-5.91968 0 0" clipDistance="300" nodeId="13" materialIds="4" castsShadows="true" receiveShadows="true">
+      <Shape shapeId="4" name="col" scale="3.13308 1 5.50927" visibility="false" static="true" clipDistance="10" nodeId="14" materialIds="5" nonRenderable="true" distanceBlending="false"/>
+    </Shape>
+  </Scene>
+
+</i3D>

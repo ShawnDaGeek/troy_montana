@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="53">
+    <author>ShawnDaGeek, LittleFeets, Shib Gaming, Amy, Big Popa T-Mo Gaming, Momsbasement, Lepaul, Travis</author>
+    <version>1.0.0.0</version>
+    <title>
+        <en>Troy, Montana</en>
+    </title>
+    <description>
+        <en>Transport yourself and crew to Troy, Montana around the year 1902 or 1800's maybe later who knows.  Embark on this expedition to make way for agriculture by clearing the forest of this beautiful valley and building your logging / farming empire. Terrain: Unknown. Amenities: Unknown. Residents: None. Dangers: Many. Farming Simulator 19 ModMap for PC</en>
+    </description>
+    <iconFilename>icon.png</iconFilename>
+    <multiplayer supported="true"/>
+    <maps>
+        <map id="SampleModMap" className="Mission00" filename="$dataS/scripts/missions/mission00.lua" configFilename="maps/mapUS.xml" defaultVehiclesXMLFilename="defaultVehicles.xml" defaultItemsXMLFilename="defaultItems.xml">
+            <title>
+                <en>Troy, Montana</en>
+            </title>
+            <description>
+                <en>Transport yourself and crew to Troy, Montana around the year 1902 or 1800's maybe later who knows.  Embark on this expedition to make way for agriculture by clearing the forest of this beautiful valley and building your logging / farming empire. Terrain: Unknown. Amenities: Unknown. Residents: None. Dangers: Many. Farming Simulator 19 ModMap for PC</en>
+            </description>
+            <iconFilename>map_preview.png</iconFilename>
+        </map>
+    </maps>
+</modDesc>

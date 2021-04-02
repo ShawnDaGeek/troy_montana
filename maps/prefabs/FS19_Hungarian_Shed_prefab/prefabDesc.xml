@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<prefabDesc descVersion="1">
+    <author>UNorby</author>
+    <version>1.0.0.0</version>
+	<title>
+		<en>Hungarian Shed Prefab</en>
+		<de>Ungarnisches Ballenunterstand Vorgefertigtes Element</de>
+		<hu>Magyar Fészer</hu>
+	</title>
+    <description>
+        <en><![CDATA[It's Hungarian Shed prefab.]]></en>
+        <de><![CDATA[Es ist eine Ungarnisches Ballenunterstand vorgefertigtes Element.]]></de>
+		<hu><![CDATA[Ez egy magyar fészer.]]></hu>
+    </description>
+	<categories>
+        <category>Others</category>
+    </categories>
+	<prefabs>
+		<prefab name="Hungarian Shed prefab" i3dFilename="Hungarian_Shed_prefab.i3d" />
+    </prefabs>
+</prefabDesc>

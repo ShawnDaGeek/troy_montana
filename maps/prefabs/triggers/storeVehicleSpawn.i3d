@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="iso-8859-1"?>
+<i3D name="untitled" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+    <Asset>
+        <Export program="GIANTS Editor 64bit" version="8.2.2"/>
+    </Asset>
+    <Files/>
+    <Materials/>
+    <Shapes/>
+    <Dynamics/>
+    <Scene>
+        <TransformGroup name="storePlace1Start" translation="-472 84 737" rotation="0 90 0" nodeId="3867">
+            <TransformGroup name="storePlace1End" translation="45 0 0" nodeId="3868"/>
+        </TransformGroup>
+    </Scene>
+    <UserAttributes>
+        <UserAttribute nodeId="3867">
+            <Attribute name="onCreate" type="scriptCallback" value="BaseMission.onCreateStoreSpawnPlace"/>
+            <Attribute name="yOffset" type="float" value="0.1"/>
+        </UserAttribute>
+    </UserAttributes>
+</i3D>

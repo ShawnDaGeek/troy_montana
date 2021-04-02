@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<prefabDesc descVersion="1">
+    <author>DieselHirsch</author>
+    <version>1.0.0.0</version>
+	<title>
+        <en>Wooden Pile Prefab</en>
+    </title>
+	<description>
+        <en><![CDATA[This prefab serves as decoration for a map.]]></en>
+		<de><![CDATA[Dieses Prefab dient als Deko für eine Map.]]></de>
+    </description>
+	<categories>
+        <category>Other</category>
+        <category>Static</category>
+    </categories>
+	<iconFilename>icon_wooden_pile_prefab.dds</iconFilename>
+	<prefabs>
+		<prefab name="Wooden Pile Prefab" i3dFilename="WoodenPile.i3d" />
+    </prefabs>
+</prefabDesc>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<items>
+    <item mapBoundId="sellingStationGeneric" className="SellingStationPlaceable" filename="$moddir$Amyville/maps/sellingStationGeneric.xml" position="8.048 22.735 -104.215" rotation="0 0 0" />
+    <item mapBoundId="sellingStationVehicles" className="Workshop" filename="data/placeables/mapUS/sellingStationVehicles/sellingStationVehicles.xml" position="2.458 22.735 -126.548" rotation="0 0 0" />
+    <item mapBoundId="gasStation" className="BuyingStationPlaceable" filename="data/placeables/mapUS/gasStation/gasStation.xml" position="-69.967 22.735 -97.537" rotation="180 0 0" />
+<!--     <item className="FarmhousePlaceable" filename="data/placeables/mapUS/farmBuildings/farmHouse.xml" position="673.234 22.743 640.986" rotation="0 0 0" defaultFarmProperty="true" farmId="1"/> -->
+    <item mapBoundId="sellingStationWoodHeatingPlant" className="WoodSellStationPlaceable" filename="data/placeables/mapUS/sellingStationWoodHeatingPlant/sellingStationWoodHeatingPlant.xml" position="-41.283 22.709 -178.889" rotation="180 -2.076 180" />
+    <!-- <item mapBoundId="limeStation" className="BuyingStationPlaceable" filename="data/placeables/limeStation/limeStation.xml" position="62.646 22.739 -22.338" rotation="-180 -87.410 -180" /> -->
+</items>
